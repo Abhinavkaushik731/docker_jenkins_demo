@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPOSITORY_URL = 'https://github.com/abhinavkaushik731/docker_jenkins_demo.git'
+        GIT_REPOSITORY_URL = 'https://github.com/Abhinavkaushik731/docker_jenkins_demo.git'
         DOCKER_IMAGE_NAME = 'abhinavkaushik731/docker_jenkins_demo'
         IMAGE_TAG = '1.0'
     }
